@@ -1,0 +1,1047 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    0. GLOBAL STYLE
+ *        - 0.1. Scaffolding
+ *        - 0.2. Pages' Rules
+ *    1. HEADER
+ *        - 1.1. Topbar Header
+ *        - 1.2. Main Header
+ *        - 1.3. Navigation
+ *    2. CONTENT
+ *        - 2.1. Slide Banner
+ *        - 2.2. Page Title & Breadcrumb
+ *        - 2.3. Main Content
+ *    3. SIDEBAR
+ *        - 3.1. Left Sidebar
+ *        - 3.2. Right Sidebar
+ *        - 3.3. Both Sidebar
+ *    4. FOOTER
+ *        - 4.1. Main Footer
+ *        - 4.2. Sub Footer
+ *        - 4.3. Copyright
+ *
+ */
+
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    0. VARIABLE LESS
+ *        - 0.1. Color
+ *    1. MIXINS
+*/
+
+/*=====================================
+=            Variable Less            =
+=====================================*/
+
+/*----------  Color  ----------*/
+
+/*=====  End of Variable Less  ======*/
+
+/*====================================
+=            Global Style            =
+====================================*/
+
+.main-color,
+a:active,
+a:focus,
+a:hover {
+    color: #0585C4;
+}
+
+#back-top .link {
+    color: #0585C4;
+    border-color: #0585C4;
+}
+
+#back-top .link:hover {
+    background-color: #0585C4;
+}
+
+/* #loading-page {
+    background-color: #0585C4;
+} */
+
+/* .machine .machine-roof {
+    background-color: #0585C4;
+}
+
+.machine .machine-main .machine-body:after {
+    background-color: #0585C4;
+}
+
+.machine .machine-main .machine-back:before {
+    background-color: #0585C4;
+}
+
+.machine .machine-main .machine-front {
+    border-top-color: #0585C4;
+}
+
+.machine .machine-main .machine-front:after {
+    border-color: #0585C4;
+} */
+
+/*=====  End of Global Style  ======*/
+
+/*==============================
+=            Header            =
+==============================*/
+
+/*----------  1.1. Topbar  ----------*/
+
+.header-topbar {
+    border-bottom-color: #0585C4;
+}
+
+.topbar-text .number-phone {
+    color: #0585C4;
+}
+
+/*----------  1.2. Main Header  ----------*/
+
+.button-search .icons:hover {
+    color: #0585C4;
+}
+
+/*----------  1.3. Main Menu  ----------*/
+
+.menu-wrapper > li.dropdown:hover > .sub-menu > li:nth-child(1),
+.mega-menu {
+    border-top-color: #0585C4;
+}
+
+/*----------  1.4. Sub Menu  ----------*/
+
+.menu-wrapper .sub-menu > li:hover > a {
+    color: #0585C4;
+}
+
+.menu-wrapper > li > a:before {
+    background-color: #0585C4;
+}
+
+/*----------  1.5. Mega Menu  ----------*/
+
+.mega-menu-tablist li.active .link,
+.mega-menu-tablist li:hover .link {
+    color: #0585C4;
+}
+
+.mega-menu-wrapper .mega-menu-column .link:hover {
+    color: #0585C4;
+}
+
+/*----------  1.6. Header more style  ----------*/
+
+.header-wrapper.header-cleaning .header-main {
+    border-bottom-color: #0585C4;
+}
+
+.header-wrapper.header-cleaning .topbar-icons {
+    color: #0585C4;
+}
+
+.header-wrapper.header-cleaning .topbar-text.big:hover {
+    color: #fbd022;
+}
+
+.header-wrapper.header-plumbing .text-color {
+    color: #0585C4;
+}
+
+/*=====  End of Header  ======*/
+
+/*===============================
+=            Sidebar            =
+===============================*/
+
+/*----------  1.2. Search  ----------*/
+
+.search-widget .input-group .btn:hover {
+    color: #0585C4;
+}
+
+.search-widget .input-group .line:after {
+    background-color: #0585C4;
+}
+
+/*----------  1.3. Categories  ----------*/
+
+.categories-inner .link:hover {
+    color: #0585C4;
+    box-shadow: -2px 2px 0 0 #0585C4;
+}
+
+.categories-widget.style-2 .categories-inner .link:hover {
+    color: #0585C4;
+}
+
+/*----------  1.4. Recent post  ----------*/
+
+.meta-info .link:hover,
+.meta-info .link:focus {
+    color: #0585C4;
+}
+
+.meta-info.time .link {
+    color: #0585C4;
+}
+
+.meta-info.reply:hover i {
+    color: #0585C4;
+}
+
+.recent-post-inner .media:hover .meta .icons {
+    color: #0585C4;
+}
+
+.recent-post-inner .media-heading:hover {
+    color: #0585C4;
+}
+
+/*----------  1.5. Archive  ----------*/
+
+.calendar-board .datepicker table tr td.day.focused,
+.calendar-board .datepicker table tr td.day:hover,
+.calendar-board .datepicker table tr td span:hover,
+.calendar-board .datepicker table tr td.active,
+.calendar-board .datepicker table tr td.today,
+.calendar-board .datepicker table tr td.today.disabled,
+.calendar-board .datepicker table tr td.today.disabled:hover,
+.calendar-board .datepicker table tr td.today:hover,
+.calendar-board .datepicker table tr td.today:hover:hover {
+    background-color: #0585C4 !important;
+}
+
+.calendar-board thead .next:hover:before,
+.calendar-board thead .prev:hover:before {
+    color: #0585C4;
+}
+
+.widget_calendar .datepicker table tr td.day:hover {
+    background-color: #0585C4;
+}
+
+/*----------  1.6. Tags  ----------*/
+
+.tag-inner .tag:hover {
+    background-color: #0585C4;
+}
+
+.widget_tag_cloud .tagcloud a:hover {
+    background-color: #0585C4;
+}
+
+/*----------  1.8. About us  ----------*/
+
+.list-social .icons:hover {
+    color: #0585C4;
+}
+
+/*----------  1.10. Project details  ----------*/
+
+.project-details-widget .list-details .main-color .link:hover {
+    color: #0585C4;
+}
+
+/*----------  1.12. Twitter  ----------*/
+
+.twitter-widget-bottom .link:hover {
+    color: #0585C4;
+}
+
+/*----------  Color WHITE  ----------*/
+
+.white .recent-post-inner .media-heading:hover {
+    color: #0585C4;
+}
+
+.white .tag:hover {
+    background-color: #0585C4;
+}
+
+.white .list-social .icons:hover {
+    color: #0585C4;
+}
+
+/*=====  End of Sidebar  ======*/
+
+/*=================================
+=            Shortcode            =
+=================================*/
+
+/*----------  1. Banner slider  ----------*/
+
+.slide-banner-1-item-wrapper {
+    border-bottom-color: #0585C4;
+}
+
+.slide-banner-1-item-wrapper .title:before {
+    background-color: #0585C4;
+}
+
+/*----------  2. Button  ----------*/
+
+.btn.main-color {
+    border-color: #0585C4;
+    background-color: #0585C4;
+}
+
+.btn.main-color:hover {
+    color: #0585C4;
+}
+
+.btn.white-color {
+    color: #0585C4;
+}
+
+.btn.transparent.main-color {
+    color: #0585C4;
+}
+
+.btn.transparent.main-color:hover {
+    border-color: #0585C4;
+    background-color: #0585C4;
+}
+
+.btn.transparent.white-color:hover {
+    color: #0585C4;
+}
+
+.btn-download-wrapper .btn-download {
+    color: #0585C4;
+}
+
+.btn-download-wrapper .btn-link .link {
+    color: #0585C4;
+}
+
+.btn-loadmore {
+    color: #0585C4;
+    border-bottom-color: #0585C4;
+}
+
+.btn-loadmore:before {
+    background-color: #0585C4;
+}
+
+/*----------  3. Title  ----------*/
+
+.main-title .title:before {
+    background-color: #0585C4;
+}
+
+.last-dif .last {
+    color: #0585C4;
+}
+
+/*----------  4. Pagination  ----------*/
+
+.pagination-wrapper .pagination li .link:hover,
+.pagination-wrapper .pagination li .link:focus,
+.pagination-wrapper .pagination li .link.active {
+    background-color: #0585C4;
+}
+
+/*----------  5. Tabs  ----------*/
+
+.tablist li .link:before {
+    background-color: #0585C4;
+}
+
+.tablist li .link:hover {
+    color: #0585C4;
+}
+
+.tablist li.active .link {
+    color: #0585C4;
+}
+
+/*----------  6. Block icon  ----------*/
+
+.block-icon-1 .wrapper-icons {
+    color: #0585C4;
+}
+
+.block-icon-1 .wrapper-icons:after {
+    background-color: #0585C4;
+}
+
+.block-icon-2 .wrapper-icons {
+    color: #0585C4;
+    border-color: #0585C4;
+}
+
+.block-icon-2 .icons:after {
+    background-color: #0585C4;
+}
+
+.block-icon-3:after {
+    background-color: #0585C4;
+}
+
+.block-icon-3 .wrapper-icons {
+    color: #0585C4;
+}
+
+.block-icon-3 .wrapper-icons:before {
+    background-color: #0585C4;
+}
+
+/*----------  7. Contact info  ----------*/
+
+.contact-info-box .wrapper-info .text .text-bold {
+    color: #0585C4;
+}
+
+.contact-info-box .wrapper-info .link:hover {
+    color: #0585C4;
+}
+
+/*----------  8. Blogs, News, Service, Post  ----------*/
+
+.label-block {
+    background-color: #0585C4;
+}
+
+.sticky-block {
+    color: #0585C4;
+}
+
+.block-info .block .link.date {
+    color: #0585C4;
+}
+
+.block-info .block a:hover {
+    color: #0585C4;
+}
+
+.block-1 .block-content .title:hover {
+    color: #0585C4;
+}
+
+.block-1 .block-content .readmore:hover {
+    color: #0585C4;
+}
+
+.block-1 .block-content .readmore-icons {
+    background-color: #0585C4;
+}
+
+.block-1 .block-content:before {
+    background-color: #0585C4;
+}
+
+.block-1 .block-quote .title {
+    color: #0585C4;
+}
+
+.block-2 .block-content .progress-bar-wrapper .progress .progress-bar {
+    background-color: #0585C4;
+}
+
+.block-2 .block-content .title:before {
+    background-color: #0585C4;
+}
+
+.block-2 .block-content .title:hover {
+    color: #0585C4;
+}
+
+.block-2 .block-content .readmore:hover {
+    color: #0585C4;
+}
+
+.block-2 .block-content .readmore-icons {
+    background-color: #0585C4;
+}
+
+.block-2 .block-content:before {
+    background-color: #0585C4;
+}
+
+.block-service {
+    background-color: #0585C4;
+}
+
+/*----------  11. Images category  ----------*/
+
+.block-image-gallery:after {
+    background-color: #0585C4;
+}
+
+.block-image-gallery .content .title:before {
+    background-color: #0585C4;
+}
+
+.block-image-gallery .readmore-icons {
+    background-color: #0585C4;
+}
+
+/*----------  12. Team  ----------*/
+
+.block-team .block-content {
+    border-left-color: #0585C4;
+}
+
+.block-team .block-content .title:hover {
+    color: #0585C4;
+}
+
+.block-team .block-content .position {
+    color: #0585C4;
+}
+
+/*----------  13. Testimonial  ----------*/
+
+.testimonial-1 .testimonial-image:before {
+    color: #0585C4;
+}
+
+.testimonial-1 .testimonial-content .name:hover {
+    color: #0585C4;
+}
+
+.testimonial-1 .testimonial-content .position {
+    color: #0585C4;
+}
+
+.testimonial-2 .infomation .name .position {
+    color: #0585C4;
+}
+
+.testimonial-3 .image-wrapper:before {
+    color: #0585C4;
+}
+
+.testimonial-3 .name:hover {
+    color: #0585C4;
+}
+
+.testimonial-3 .position {
+    color: #0585C4;
+}
+
+.white .testimonial-1 .testimonial-content .name:hover {
+    color: #0585C4;
+}
+
+/*----------  15. Count Number  ----------*/
+
+.count-number .number:before {
+    background-color: #0585C4;
+}
+
+.count-number .name {
+    color: #0585C4;
+}
+
+/*----------  16. Acodion  ----------*/
+
+.block-accordion .panel-group .panel .panel-body {
+    border-bottom-color: #0585C4;
+    border-left-color: #0585C4;
+}
+
+.block-accordion .icons {
+    background-color: #0585C4;
+}
+
+/*----------  17. Banner  ----------*/
+
+.banner-1 {
+    background-color: #0585C4;
+}
+
+.banner-3 .big-title {
+    color: #0585C4;
+}
+
+.banner-4 .subtitle {
+    color: #0585C4;
+}
+
+.banner-5 .title {
+    color: #0585C4;
+}
+
+.banner-pages .banner-wrapper {
+    border-bottom-color: #0585C4;
+}
+
+.banner-pages .title:before {
+    background-color: #0585C4;
+}
+
+/*----------  18. Slider syncing  ----------*/
+
+.slider-vertical-wrapper .slider-for-wrapper .item-wrapper .content-wrapper .readmore:hover {
+    color: #0585C4;
+}
+
+/*----------  20. Contact Form  ----------*/
+
+.contact-form {
+    background-color: #0585C4;
+}
+
+/*----------  21. Map  ----------*/
+
+.contact-map:before {
+    /* background-color: #0585C4; */
+}
+
+/*----------  22. Coming Soon  ----------*/
+
+.coming-soon {
+    background-color: #0585C4;
+}
+
+/*----------  23. BLock detail wrapper  ----------*/
+
+.blog-detail-content blockquote > p cite a:hover {
+    color: #0585C4;
+}
+
+.blog-detail-content blockquote > p cite span {
+    color: #0585C4;
+}
+
+.next-prev-page {
+    border-bottom-color: #0585C4;
+}
+
+/*----------  24. Pricing Plan - Package  ----------*/
+
+.package-content .title {
+    color: #0585C4;
+}
+
+.package-content:hover {
+    border-bottom-color: #0585C4;
+}
+
+.package-content:hover .btn {
+    border-color: #0585C4;
+    background-color: #0585C4;
+}
+
+/*=====  End of Shortcode  ======*/
+
+/*============================
+=            Page            =
+============================*/
+
+/*----------  Homepage Default  ----------*/
+
+.image-gallery:before {
+    background-color: #0585C4;
+}
+
+.banner-2-default .btn.white-color:hover {
+    color: #0585C4;
+    border-color: #0585C4;
+}
+
+/*----------  Homepage 2  ----------*/
+
+.homepage-1-banner .banner-title .subtitle {
+    color: #0585C4;
+}
+
+/*----------  Homepage 3  ----------*/
+
+.homepage-2-banner .subtitle {
+    color: #0585C4;
+}
+
+.homepage-2-banner .rectangle {
+    border-color: #0585C4;
+}
+
+/*----------  Page About  ----------*/
+
+.accordion .title:before {
+    background-color: #0585C4;
+}
+
+/*----------  Page Team Member  ----------*/
+
+.detail-contact-info .position {
+    color: #0585C4;
+}
+
+.detail-contact-info .contact-list .text:hover {
+    color: #0585C4;
+}
+
+.detail-contact-info .contact-list .text.text-bold {
+    color: #0585C4;
+}
+
+/*----------  Page Comming Soon  ----------*/
+
+.page-coming-soon .main-content {
+    background-color: #0585C4;
+}
+
+/*----------  Homepage Cleaning  ----------*/
+
+.homepage-cleaning-banner .slide-banner-1-item-wrapper .subtitle {
+    color: #0585C4;
+}
+
+.testimonial-homepage-cleaning .testimonial-1 .testimonial-content .position {
+    color: #0585C4;
+}
+
+.homepage-cleaning .header-wrapper.header-cleaning .header-main {
+    border-bottom-color: #0e95db;
+}
+
+.homepage-cleaning .package-content:hover {
+    border-bottom-color: #fbd022;
+}
+
+.homepage-cleaning .menu-wrapper > li.dropdown:hover > .sub-menu > li:nth-child(1),
+.homepage-cleaning .mega-menu {
+    border-top-color: #0e95db;
+}
+
+.homepage-cleaning .btn.main-color,
+.homepage-cleaning .package-content:hover .btn {
+    border-color: #fbd022;
+}
+
+.homepage-cleaning .block-2 .block-content .title:hover,
+.homepage-cleaning .header-wrapper.header-cleaning .topbar-icons,
+.homepage-cleaning .block-2 .block-content .readmore:hover,
+.homepage-cleaning .block-1 .block-content .title:hover,
+.homepage-cleaning .block-1 .block-content .readmore:hover,
+.homepage-cleaning .homepage-cleaning-banner .slide-banner-1-item-wrapper .subtitle,
+.homepage-cleaning .btn.transparent.white-color:hover,
+.homepage-cleaning .btn.main-color:hover,
+.homepage-cleaning .recent-post-inner .media-heading:hover,
+.homepage-cleaning .banner-4 .subtitle,
+.homepage-cleaning .testimonial-1 .testimonial-image:before,
+.homepage-cleaning .testimonial-homepage-cleaning .testimonial-1 .testimonial-content .position,
+.homepage-cleaning .contact-info-box .wrapper-info .text .text-bold,
+.homepage-cleaning .white .recent-post-inner .media-heading:hover,
+.homepage-cleaning .meta-info .link:hover,
+.homepage-cleaning .meta-info .link:focus {
+    color: #fbd022;
+}
+
+.homepage-cleaning .menu-wrapper .sub-menu > li:hover > a,
+.homepage-cleaning .mega-menu-tablist li.active .link,
+.homepage-cleaning .mega-menu-tablist li:hover .link,
+.homepage-cleaning .mega-menu-wrapper .mega-menu-column .link:hover,
+.homepage-cleaning .detail-content > ul li:before,
+.homepage-cleaning .package-content .title,
+.homepage-cleaning .block-info .block .link.date,
+.homepage-cleaning .meta-info.time .link {
+    color: #0e95db;
+}
+
+.homepage-cleaning .label-block,
+.homepage-cleaning .block-2 .block-content .progress-bar-wrapper .progress .progress-bar,
+.homepage-cleaning .block-2 .block-content .title:before,
+.homepage-cleaning .block-2 .block-content:before,
+.homepage-cleaning .block-1 .block-content:before,
+.homepage-cleaning .block-image-gallery .content .title:before,
+.homepage-cleaning .block-image-gallery:after,
+.homepage-cleaning .block-image-gallery .readmore-icons,
+.homepage-cleaning .btn.main-color,
+.homepage-cleaning .package-content:hover .btn,
+.homepage-cleaning .banner-1 {
+    background-color: #fbd022;
+}
+
+.homepage-cleaning .main-title .title:before,
+.homepage-cleaning .tablist li .link:before {
+    background-color: #0e95db;
+}
+
+.homepage-cleaning .btn.main-color:hover {
+    background-color: #ffffff;
+}
+
+/*----------  Homepage Plumbing  ----------*/
+
+.homepage-plumbing-banner .slide-banner-1-item-wrapper .subtitle {
+    color: #0585C4;
+}
+
+.plumbing-fact {
+    background-color: #0585C4;
+}
+
+.plumbing-banner-2 {
+    background-color: #0585C4;
+}
+
+.homepage-plumbing .header-wrapper.header-plumbing .text-color,
+.homepage-plumbing .topbar-text .number-phone,
+.homepage-plumbing .menu-wrapper .sub-menu > li:hover > a,
+.homepage-plumbing .mega-menu-tablist li.active .link,
+.homepage-plumbing .mega-menu-tablist li:hover .link,
+.homepage-plumbing .block-2 .block-content .title:hover,
+.homepage-plumbing .block-2 .block-content .readmore:hover,
+.homepage-plumbing .block-1 .block-content .title:hover,
+.homepage-plumbing .block-1 .block-content .readmore:hover,
+.homepage-plumbing .mega-menu-wrapper .mega-menu-column .link:hover,
+.homepage-plumbing .button-search .icons:hover,
+.homepage-plumbing .homepage-plumbing-banner .slide-banner-1-item-wrapper .subtitle,
+.homepage-plumbing .btn.transparent.white-color:hover,
+.homepage-plumbing .btn.main-color:hover,
+.homepage-plumbing .last-dif .last,
+.homepage-plumbing .banner-5 .title,
+.homepage-plumbing .tablist li.active .link,
+.homepage-plumbing .testimonial-3 .image-wrapper:before,
+.homepage-plumbing .testimonial-3 .position,
+.homepage-plumbing .block-info .block .link.date,
+.homepage-plumbing .tablist li .link:hover,
+.homepage-plumbing .testimonial-3 .name:hover {
+    color: #1bbde8;
+}
+
+.homepage-plumbing .menu-wrapper > li > a:before,
+.homepage-plumbing .label-block,
+.homepage-plumbing .block-2 .block-content .progress-bar-wrapper .progress .progress-bar,
+.homepage-plumbing .block-2 .block-content .title:before,
+.homepage-plumbing .block-2 .block-content:before,
+.homepage-plumbing .block-1 .block-content:before,
+.homepage-plumbing .block-image-gallery:after,
+.homepage-plumbing .block-image-gallery .readmore-icons,
+.homepage-plumbing .block-image-gallery .content .title:before,
+.homepage-plumbing .btn.main-color,
+.homepage-plumbing .block-service,
+.homepage-plumbing .main-title .title:before,
+.homepage-plumbing .tablist li .link:before,
+.homepage-plumbing .plumbing-fact,
+.homepage-plumbing .plumbing-banner-2 {
+    background-color: #1bbde8;
+}
+
+.homepage-plumbing .menu-wrapper > li.dropdown:hover > .sub-menu > li:nth-child(1),
+.homepage-plumbing .mega-menu {
+    border-top-color: #1bbde8;
+}
+
+.homepage-plumbing .btn.main-color {
+    border-color: #1bbde8;
+}
+
+.homepage-plumbing .btn.main-color:hover {
+    background-color: #ffffff;
+}
+
+/*=====  End of Page  ======*/
+
+/*===================================
+=            WooCommerce            =
+===================================*/
+
+.woocommerce .woocommerce-message .wc-forward,
+.woocommerce .comment-respond .form-submit .submit,
+.slz-woocommerce .comment-respond .form-submit .submit,
+.woocommerce ul.products li.product .onsale,
+.woocommerce span.onsale,
+.woocommerce .type-product .onsale,
+.woocommerce ul.products li.type-product .onsale,
+.woocommerce div.product .woocommerce-tabs ul.tabs > li a:before,
+.slz-woocommerce div.product .woocommerce-tabs ul.tabs > li a:before,
+.status-publish.hentry .woocommerce .title h3:after,
+.status-publish.hentry .woocommerce h2:after,
+.woocommerce .woocommerce-shipping-fields .checkbox:after,
+.woocommerce .woocommerce-checkout > h3:after,
+.woocommerce .woocommerce-billing-fields h3:after,
+.woocommerce .type-product .related h2:after,
+.woocommerce .type-product .upsells h2:after,
+.woocommerce nav.woocommerce-pagination > .page-numbers > li .page-numbers.current,
+.woocommerce .woocommerce-pagination > .page-numbers > li .page-numbers:hover,
+.slz-woocommerce .woocommerce-pagination > .page-numbers > li .page-numbers:hover,
+.woocommerce.widget_price_filter .price_slider .ui-widget-header,
+.woocommerce table.shop_table thead tr th,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:after,
+.woocommerce a.button.alt:after,
+.woocommerce button.button.alt:after,
+.woocommerce input.button.alt:after,
+.footer .woocommerce #respond input#submit:hover:after,
+.footer .woocommerce a.button:hover:after,
+.footer .woocommerce button.button:hover:after,
+.footer .woocommerce input.button:hover:after,
+.woocommerce-account .woocommerce-MyAccount-content h3:after,
+.woocommerce .billing-address-header-wrapper h3:after {
+    background-color: #0585C4;
+}
+
+.woocommerce .added_to_cart.wc-forward,
+.woocommerce input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.slz-woocommerce a.button,
+.slz-woocommerce button.button,
+.slz-woocommerce input.button,
+.slz-woocommerce a.button:hover,
+.woocommerce a.added_to_cart:hover,
+.woocommerce button.button:focus,
+.slz-woocommerce a.button:focus,
+.slz-woocommerce button.button:focus,
+.woocommerce a.added_to_cart:focus,
+.woocommerce a.button:active,
+.woocommerce button.button:active,
+.slz-woocommerce a.button:active,
+.slz-woocommerce button.button:active,
+.woocommerce a.added_to_cart:active,
+.slz-woocommerce input.button:hover,
+.woocommerce.widget_product_search .woocommerce-product-search input[type='submit']:hover,
+.woocommerce table.shop_table td.actions .button[name='apply_coupon']:hover,
+.woocommerce #respond input#submit.alt:hover {
+    border-color: #0585C4;
+    background-color: #0585C4;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove,
+.slz-woocommerce .widget_shopping_cart .cart_list li a.remove,
+.woocommerce a.remove {
+    color: #0585C4 !important;
+}
+
+.woocommerce .woocommerce-message a,
+.slz-woocommerce .woocommerce-message a,
+.woocommerce .woocommerce-error a,
+.slz-woocommerce .woocommerce-error a,
+.woocommerce .woocommerce-info a,
+.slz-woocommerce .woocommerce-info a,
+.woocommerce .woocommerce-message .button,
+.slz-woocommerce .woocommerce-message .button,
+.woocommerce .woocommerce-error .button,
+.slz-woocommerce .woocommerce-error .button,
+.woocommerce .woocommerce-info .button,
+.slz-woocommerce .woocommerce-info .button,
+.woocommerce .woocommerce-info:before,
+.woocommerce .woocommerce-message:before,
+.woocommerce .woocommerce-message .wc-forward:hover,
+.woocommerce .woocommerce-message .wc-forward:hover:before,
+.woocommerce .woocommerce-message .wc-forward.active:before,
+p.stars a.star-1:after,
+p.stars a.star-2:after,
+p.stars a.star-3:after,
+p.stars a.star-4:after,
+p.stars a.star-5:after,
+.woocommerce div.product p.price ins,
+.woocommerce div.product span.price ins,
+.woocommerce .type-product .entry-summary .price ins,
+.woocommerce .type-product .entry-summary .price > .amount,
+.woocommerce div.product .woocommerce-tabs ul.tabs > li.active > a,
+.woocommerce div.product .woocommerce-tabs ul.tabs > li > a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs > li > a:active,
+.woocommerce div.product .woocommerce-tabs ul.tabs > li > a:focus,
+.slz-woocommerce div.product .woocommerce-tabs ul.tabs > li.active > a,
+.slz-woocommerce div.product .woocommerce-tabs ul.tabs > li > a:hover,
+.slz-woocommerce div.product .woocommerce-tabs ul.tabs > li > a:active,
+.slz-woocommerce div.product .woocommerce-tabs ul.tabs > li > a:focus,
+.woocommerce ul.products li.product h3:hover,
+.woocommerce .products .type-product h3:hover,
+.woocommerce ul.products li.product .price ins,
+.woocommerce .products .type-product .price ins,
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .price ins .amount,
+.woocommerce .products .type-product .price ins .amount,
+.woocommerce .products .type-product .price > .amount,
+span.product-title:hover,
+span.product-title:active,
+span.product-title:focus,
+.woocommerce ul.product_list_widget li .quantity .amount,
+.woocommerce .widget_shopping_cart .total .amount,
+.woocommerce.widget_shopping_cart .total .amount,
+.woocommerce.widget_top_rated_products .product_list_widget .amount,
+.woocommerce.widget_recently_viewed_products .product_list_widget .amount,
+.woocommerce.widget_products .product_list_widget .amount,
+.woocommerce a:hover,
+.woocommerce a:active,
+.woocommerce a:focus,
+.woocommerce.widget_product_categories .product-categories > li span.fa:hover,
+.woocommerce.widget_recently_viewed_products .product_list_widget ins,
+.woocommerce.widget_products .product_list_widget ins,
+.woocommerce.widget_top_rated_products .product_list_widget ins,
+.woocommerce .star-rating:before,
+.star-rating span,
+.woocommerce table.shop_table td.product-name a:hover,
+.woocommerce table.shop_table td.actions .button:hover,
+.woocommerce table.wishlist_table tbody .product-price ins,
+.woocommerce table.wishlist_table tbody .product-price ins .amount,
+.woocommerce .login .form-row:not(.form-row-first):not(.form-row-last):not(.form-row-wide) input[type=checkbox]:checked + label:before,
+.woocommerce .create-account input[type=checkbox]:checked + .checkbox:before,
+.woocommerce .woocommerce-shipping-fields input[type=checkbox]:checked + .checkbox:before,
+.woocommerce ul#shipping_method li input[type=radio]:checked + label:before,
+.woocommerce #payment ul.payment_methods li input[type=radio]:checked + label:before,
+.woocommerce #payment .payment_method_paypal .about_paypal,
+.woocommerce .woocommerce-thankyou-order-received,
+.yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a,
+.yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a,
+.footer .woocommerce a:hover,
+.footer .woocommerce ul.cart_list li a:hover,
+.footer .woocommerce ul.product_list_widget li a:hover,
+.woocommerce .products .type-product .product_type_variable.add_to_cart_button:hover,
+.woocommerce ul.products li.product .button:hover,
+.woocommerce.widget_product_search .woocommerce-product-search input[type='submit'] {
+    color: #0585C4;
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-message,
+.slz-woocommerce .woocommerce-message,
+.slz-woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.slz-woocommerce .woocommerce-info,
+.rtl .sidebar .widget .title-widget,
+.woocommerce.widget_price_filter .price_slider .ui-slider-handle,
+.woocommerce .products .type-product .product_type_variable.add_to_cart_button:hover,
+.woocommerce ul.products li.product .button:hover {
+    border-color: #0585C4;
+}
+
+.woocommerce ul.products li.product .button:hover,
+.woocommerce button.button:hover,
+.slz-woocommerce button.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce a.button:focus,
+.woocommerce input.button:hover,
+.woocommerce input.button.alt:hover {
+    color: #0585C4;
+    border-color: #0585C4;
+    background-color: #ffffff;
+}
+
+.woocommerce .woocommerce-message .wc-forward,
+.woocommerce.widget_product_search .woocommerce-product-search input[type='submit']:hover {
+    color: #ffffff;
+}
+
+/*=====  End of WooCommerce  ======*/
